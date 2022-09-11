@@ -1,20 +1,21 @@
+0-positive_or_negative.c
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
-* main - print if the number is positive, zero, or negative
-* 
-* Description: using the main function
-* this program prints "progamming is positive, zero, or negative
-* Return: 0
-*/
+/**
+ * main - print if the number is positive, zero, or negative
+ *
+ * Description: using the main function
+ * this program prints "progamming is positive, zero, or negative
+ * Return: 0
+ */
 int main(void)
 {
-int n;
+	int n;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-  /* comments enters here */
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* comments enters here */
 if (n > 0)
 {
 	printf("%i is positve\n", n);
@@ -29,3 +30,4 @@ else if (n < 0)
 }
 return (0);
 }
+
